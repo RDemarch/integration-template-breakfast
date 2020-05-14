@@ -1,0 +1,156 @@
+:root {
+  font-size: 12px;
+}
+
+
+body {
+  font-family: 'Aachen Regular', serif;
+  color: white;
+  letter-spacing: 0.2rem;
+  line-height: 1.5rem;
+  font-size: 1.7rem;
+  background-color: #17171e;
+}
+
+#homepage {
+  background-color: #232329;
+  /*width: 100%;
+  height: 100vh;*/
+}
+
+.nav-link
+{
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #fe9000 !important;
+}
+
+.row {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-text {
+
+  text-align: center;
+  margin-right: 2rem;
+  margin-left: 0.6rem;
+}
+
+.logo-text h2 {
+  font-size: 1rem;
+}
+
+.logo-text h1{
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 62px;
+  height: 50px;
+  background-image: url(images-breakfast/coeur-blanc.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+}
+
+.logo-text .logo:hover {
+  background-image: url(images-breakfast/coeur-orange.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 62px;
+  height: 50px;
+  color: transparent;
+}
+
+.hometext {
+  margin-top: 1.2rem;
+}
+
+.hometext h1 {
+  color: #fe9000;
+  font-size: 2.8rem;
+}
+
+.hometext p {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.assiette1 {
+  width: 30.5rem;
+  height: 28rem;
+}
+
+.btn-contact, .btn-contact:hover,  .btn-contact:visited, .btn-contact:active, .btn-contact:focus, .btn-contact:disabled {
+  background-color: #fe9000;
+  border: none;
+  color: black;
+  font-size: 2rem;
+}
+
+.box-coffee {
+  margin-left: 0rem;
+}
+
+.cafe-beans {
+  height: 26rem;
+  margin-left: 0rem;
+}
+
+#quality {
+  background-color: #fe9000;
+}
+
+@media (min-width: 576px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    font-size: 17px;
+  }
+  .box-coffee {
+    margin-left: 13rem;
+  }
+  .row {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .food-quality {
+    max-width: 30rem;
+  }
+  #quality {
+    background-color: transparent;
+    padding-top: 15rem;
+    padding-left: 9rem;
+    background-image: url(images-breakfast/bg-shape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  :root {
+    font-size: 18px;
+  }
+}
