@@ -106,7 +106,19 @@ body {
 }
 
 .image-gallery {
-  margin: 1rem;
+  margin-bottom: 1rem;
+}
+
+#offers .row {
+  background-image: url(images-breakfast/bg-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#offers .text-center {
+  background-color: #242430;
+  border: 0.5rem solid #fe9000;
 }
 
 @media (min-width: 576px) {
