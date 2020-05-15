@@ -81,8 +81,8 @@ body {
 }
 
 .assiette1 {
-  width: 30.5rem;
-  height: 28rem;
+  width: 26rem;
+  height: 21.5rem;
 }
 
 .btn-contact, .btn-contact:hover,  .btn-contact:visited, .btn-contact:active, .btn-contact:focus, .btn-contact:disabled {
@@ -103,6 +103,10 @@ body {
 
 #quality {
   background-color: #fe9000;
+}
+
+.image-gallery {
+  margin: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -139,18 +143,28 @@ body {
   }
   #quality {
     background-color: transparent;
-    padding-top: 15rem;
-    padding-left: 9rem;
-    background-image: url(images-breakfast/bg-shape.png);
+    padding-top: 17rem;
+    padding-left: 8rem;
+    background-image: url(images-breakfast/bg-shape-assiette.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 95rem;
+    height: 105rem;
   }
 }
 
 @media (min-width: 1500px) {
   :root {
     font-size: 18px;
+  }
+  #quality {
+    height: 150rem;
+  }
+  #quality h1 {
+    font-size: 5rem;
+  }
+  #quality p {
+    font-size: 3rem;
+    line-height: 3.2rem;
   }
 }
