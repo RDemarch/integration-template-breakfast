@@ -151,6 +151,9 @@ body {
   height: 66px;
 }
 
+.list-footer ul {
+  list-style-type: none;
+}
 
 .list-footer li {
   display: inline;
