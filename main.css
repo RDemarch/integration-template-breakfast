@@ -15,6 +15,8 @@ body {
   background-color: #17171e;
 }
 
+/*Css Section 1*/
+
 #homepage {
   background-color: #232329;
 }
@@ -93,6 +95,8 @@ body {
   font-size: 2rem;
 }
 
+/*Css Section 2*/
+
 .box-coffee {
   margin-left: 0rem;
 }
@@ -102,14 +106,20 @@ body {
   margin-left: 0rem;
 }
 
+/*Css Section 3*/
+
 #quality {
   background-color: #fe9000;
   height: 100%;
 }
 
+/*Css Section 4*/
+
 .image-gallery {
   margin-bottom: 1rem;
 }
+
+/*Css Section 5*/
 
 #offers .row {
   background-image: url(images-breakfast/bg-1.png);
@@ -122,6 +132,8 @@ body {
   background-color: #242430;
   border: 10px solid #fe9000;
 }
+
+/*Css Section 6*/
 
 #menu {
   margin-top: 10rem;
@@ -141,6 +153,8 @@ body {
 .best-meal {
   background-color: #fe9000;
 }
+
+/*Css Footer*/
 
 .background-row {
   background-color: rgb(47, 47, 57) !important;
@@ -254,6 +268,7 @@ body {
   color: transparent;
 }
 
+/*Media Queries*/
 
 @media (min-width: 576px) {
   :root {
