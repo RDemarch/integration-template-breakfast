@@ -60,7 +60,7 @@ body {
   color: transparent;
 }
 
-.logo-text .logo:hover {
+.logo:hover {
   background-image: url(images-breakfast/coeur-orange.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,6 +117,7 @@ body {
 
 .image-gallery {
   margin-bottom: 1rem;
+  max-width: 450px;
 }
 
 /*Css Section 5*/
