@@ -113,11 +113,15 @@ body {
   height: 100%;
 }
 
+.food-quality {
+  font-size: 1.5rem;
+}
+
 /*Css Section 4*/
 
 .image-gallery {
   margin-bottom: 1rem;
-  max-width: 450px;
+  max-width: 350px;
 }
 
 /*Css Section 5*/
@@ -287,6 +291,7 @@ body {
   :root {
     font-size: 16px;
   }
+
 }
 
 @media (min-width: 1200px) {
@@ -300,9 +305,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
   }
-  .food-quality {
-    max-width: 30rem;
-  }
+
   #quality {
     background-color: transparent;
     padding-top: 17rem !important;
@@ -325,7 +328,8 @@ body {
   :root {
     font-size: 18px;
   }
-  #quality {
+
+    #quality {
     height: 150rem !important;
   }
   #quality h1 {
